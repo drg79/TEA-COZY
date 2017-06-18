@@ -5,8 +5,7 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
-  
+  o
 }
 
 /* HEADER ---------------------------*/
@@ -51,7 +50,8 @@ a {
 
 .main-container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .large-image {
@@ -62,14 +62,37 @@ a {
 }
 
 .title-bar {
-
   background-color: black;
   z-index: 10;
   text-align: center;
+  width: inherit;
   }
+
+  
+
+.title-bar2 {
+    text-align: center;
+    display: block;
+}
 
 #mission-bg {
   background-image: url("./images/img-mission-background.jpg");
   height: 700px;
+  width: 1200px;
+  }
+
+.item img {
+    height: 200px;
+    width: 300px;
+  }
+
+.tea-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+}
+
+.item {
   
 }
