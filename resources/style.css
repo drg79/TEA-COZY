@@ -5,7 +5,7 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  o
+  opacity: 0.9;
 }
 
 /* HEADER ---------------------------*/
@@ -73,6 +73,7 @@ a {
 .title-bar2 {
     text-align: center;
     display: block;
+    margin-top: 40px;
 }
 
 #mission-bg {
@@ -81,10 +82,15 @@ a {
   width: 1200px;
   }
 
+  .item {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
 .item img {
     height: 200px;
     width: 300px;
-  }
+      }
 
 .tea-images {
   display: flex;
@@ -93,6 +99,9 @@ a {
   width: 1000px;
 }
 
-.item {
-  
+.item span {
+text-align: center;
+display: block;
+font-weight: bold;
+padding: 10px 5px 0px 5px;
 }
