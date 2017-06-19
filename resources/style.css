@@ -45,16 +45,21 @@ a {
 }
 
 /* MAIN SECTION ------------------------------*/
-
-
 .main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  }
   
-}
+/*mission--------------------*/
 
+#mission-bg {
+    background-image: url("./images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    }
+    
 .large-image {
   display: flex;
   flex-direction: column;
@@ -62,26 +67,8 @@ a {
   align-items: center;
 }
 
-.large-image2 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  }
-
-.content {
-
-}
-
-  
-.box-locations {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-
-  width: 1000px;
-}
-
-h2, h4 {
+h2, 
+h4 {
   background-color: black;
   z-index: 10;
   width: inherit;
@@ -90,69 +77,89 @@ h2, h4 {
   padding: 10px;
 }
 
-.title h2 {
-  background-color: transparent;
+/* month --------------------------------*/
+  
+.box-locations {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-around;
 }
+
 
 .title-bar2 {
   margin-top: 40px;
 }
 
-footer {
-  text-align: center;
-}
-
-#mission-bg {
-  background-image: url("./images/img-mission-background.jpg");
-  height: 700px;
-  width: 1200px;
-  }
-
-#locations {
-  background-image: url("./images/img-locations-background.jpg");
-  height: 500px;
-  width: 1200px;
-  
-  background-size: auto;
-  padding-top: 70px;
-  }
-
-  .box {
-    margin: 10px;
-    background-color: black;
-    width: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-.box p {
-  padding: 5px;
-}
 
 .item {
     margin-bottom: 10px;
     padding: 10px;
   }
 
+  
 .item img {
-    height: 200px;
-    width: 300px;
-      }
-
+      height: 200px;
+      width: 300px;
+  }
+  
 .tea-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+  }
+  
+.item span {
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  padding: 10px 5px 0px 5px;
+  }
+
+    
+
+/* locations --------------------------*/
+
+.title h2 {
+  background-color: transparent;
+}
+
+.large-image2 {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 1000px;
+  align-items: flex-start;
+  }
+
+#locations {
+  background-image: url("./images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  background-size: auto;
+  padding-top: 70px;
+  margin-top: 40px;
+  }
+
+.box {
+    margin: 10px;
+    background-color: black;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    opacity: 1;
+  }
+
+.box p {
+  padding: 5px;
 }
 
-.item span {
-text-align: center;
-display: block;
-font-weight: bold;
-padding: 10px 5px 0px 5px;
-}
 
+/* FOOTER------------------------------*/
+
+footer {
+  text-align: center;
+  height: 200px;
+}
 
 .copyright {
   width: 100%;
