@@ -20,8 +20,7 @@ header {
 }
 
 #tclogo {
-  
-  display: flex;
+    display: flex;
   align-items: center;
   margin-left: 10px;
   flex-grow: 1;
@@ -50,9 +49,10 @@ a {
 
 .main-container {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   text-align: center;
+  
 }
 
 .large-image {
@@ -64,17 +64,20 @@ a {
 
 .large-image2 {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  
-  
+  justify-content: center;
+  align-items: flex-start;
+  }
+
+.content {
+
 }
 
+  
 .box-locations {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+
   width: 1000px;
 }
 
@@ -95,7 +98,7 @@ h2, h4 {
   margin-top: 40px;
 }
 
-.title-bar3 {
+footer {
   text-align: center;
 }
 
@@ -109,17 +112,22 @@ h2, h4 {
   background-image: url("./images/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
-  margin-top: 50px;
+  
   background-size: auto;
   padding-top: 70px;
   }
 
   .box {
-  
+    margin: 10px;
     background-color: black;
     width: 300px;
-
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+
+.box p {
+  padding: 5px;
+}
 
 .item {
     margin-bottom: 10px;
@@ -143,4 +151,12 @@ text-align: center;
 display: block;
 font-weight: bold;
 padding: 10px 5px 0px 5px;
+}
+
+#copyright {
+justify-content: flex-start;
+align-items: flex-start;
+margin-left: 20px;
+color: red;
+flex grow: 1;
 }
